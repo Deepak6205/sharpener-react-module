@@ -1,0 +1,93 @@
+.main-cont {
+  border-radius: 5px;
+  padding: 0;
+  margin-top: 40px;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Each bookmark item in a row */
+.child-cont {
+  background: linear-gradient(
+    90deg,
+    rgb(140, 42, 155) 0%,
+    rgb(199, 195, 87) 50%,
+    rgb(237, 83, 83) 100%
+  );
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+  gap: 20px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+/* Title styling */
+.child-cont p {
+  font-size: 16px;
+  font-weight: bold;
+  flex: 1;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Link styling */
+.child-cont a {
+  font-size: 14px;
+  color: #323cf7;
+  text-decoration: underline;
+  flex: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.child-cont a:hover {
+  text-decoration: none;
+}
+
+/* Buttons */
+.child-cont button {
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Edit button */
+.child-cont button:first-of-type {
+  background-color: #ffec99;
+  color: #333;
+}
+
+.child-cont button:first-of-type:hover {
+  background-color: #ffe066;
+}
+
+/* Delete button */
+.child-cont button:last-of-type {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.child-cont button:last-of-type:hover {
+  background-color: #fa5252;
+}
+
