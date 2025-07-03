@@ -1,0 +1,50 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.vote-form {
+  margin: 20px 0;
+}
+
+.vote-form input,
+.vote-form select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.vote-form button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.vote-count {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.voter-lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.candidate-block {
+  width: 30%;
+}
+
+.candidate-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.candidate-block li {
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  padding: 4px 8px;
+  margin: 4px 0;
+}
