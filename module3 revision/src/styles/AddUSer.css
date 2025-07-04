@@ -1,0 +1,62 @@
+.container{
+    width: 350px;
+    background-color: #dbe9f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 16px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 10px;
+    width: 95%;
+}
+.input-field label{
+    color: black;
+    font-weight: bold;
+}
+.input-field input{
+    width: 100%;
+    background-color: #f1f4f6;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 3px;
+    color: black;
+}
+
+.age-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 10px;
+    width: 95%;
+    margin-top: 5px;
+}
+.age-field label{
+    color: black;
+    font-weight: bold;
+}
+.age-field input{
+    width: 100%;
+    background-color: #f9fbfd;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 3px;
+    color: black;
+}
+.container button{
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+    background: #8c047f;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}

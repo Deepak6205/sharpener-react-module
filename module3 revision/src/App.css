@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.whole-item{
+  width: 450px;
+  background: rgb(65, 58, 58);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  padding: 30px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

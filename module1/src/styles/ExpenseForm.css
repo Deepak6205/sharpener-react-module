@@ -1,0 +1,81 @@
+.form-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50rem;
+  background-color: #987afbbf;
+  padding: 12px;
+  border-radius: 15px;
+}
+#input {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+#input label{
+    font-weight: bold;
+    font-size: 20px;
+}
+#input input{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+}
+#amount {
+  display: flex;
+    padding: 12px;
+  flex-direction: column;
+}
+#amount label{
+    font-weight: bold;
+    font-size: 20px;
+}
+#amount input{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+}
+#date {
+  display: flex;
+padding: 12px;
+  flex-direction: column;
+}
+#date label{
+    font-weight: bold;
+    font-size: 20px;
+}
+#date input{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+.add-button button{
+  color: white;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #5c0080;
+    border-radius: 10px;
+    border: none;
+}
+
+.cancel-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cancel-btn button{
+  color: white;
+    font-size: 16px;
+    padding: 16px;
+    background-color: #5c0080;
+    border-radius: 10px;
+    border: none;
+}

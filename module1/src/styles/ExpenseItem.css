@@ -1,0 +1,53 @@
+.container{
+    background: #4e4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.location p{
+    color: yellow;
+    font-style: italic;
+}
+.expense{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.expense p{
+    font-size: 20px;
+    
+    color: white;
+    border-radius: 5px;
+    background-color: #40037a;
+    text-align: center;
+    width: max-content;
+    padding: 12px;
+    border: 2px solid silver;
+}
+.money{
+    
+   display: flex;
+   justify-content: flex-end;
+}
+.expense h1{
+    color: white;
+}
+.expense button{
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    background: #40037a;
+    border: none;
+}

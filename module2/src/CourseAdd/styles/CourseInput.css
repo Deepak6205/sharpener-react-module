@@ -1,0 +1,39 @@
+.input-card{
+    width: 550px;
+    height: 200px;
+    background: ghostwhite;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 32px;
+}
+.input-box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 35px;
+    gap: 10px;
+   
+}
+.input-box-container label{
+    color: #090909;
+    font-weight: 400;
+    margin: 0;
+}
+.input-box-container input{
+    width: 95%;
+    padding: 5px;
+    background: none;
+    color: rgb(12, 13, 13);
+    background-color: #fcfcfc;
+    border-radius: 0px;
+    border: 1.5px solid rgb(30, 29, 29);
+    outline: none;
+}
+.input-box-container button{
+    color: #fcfcfc;
+    background: #9d0352;
+    padding:  12px 36px;
+    font-size: 16px;
+    border: none;
+}

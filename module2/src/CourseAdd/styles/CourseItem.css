@@ -1,0 +1,22 @@
+.whole-container{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 8px;
+    
+    flex-direction: column;
+}
+.whole-container li{
+    color: #fdfdfd;
+    list-style-type:none;
+    text-align: left;
+    padding: 16px;
+    background: #9d0352;
+    width: 510px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: -5px auto;
+    border-radius: 8px;
+    
+}

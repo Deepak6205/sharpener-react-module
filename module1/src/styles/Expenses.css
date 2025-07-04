@@ -1,0 +1,16 @@
+.expenses{
+    background-color: black;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 95%;
+    width: 50rem;
+}
+#para{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+#one-expense{
+    color: white;
+    text-align: center;
+}

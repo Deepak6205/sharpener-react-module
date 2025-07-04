@@ -1,0 +1,13 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    width: 550px;
+    gap: 10px;
+}
+.list-item{
+    color: black;
+    list-style-type: none;
+    
+}

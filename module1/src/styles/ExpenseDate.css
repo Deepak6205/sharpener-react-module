@@ -1,0 +1,13 @@
+.date-card{
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(232, 229, 229);
+    border-radius: 15px;
+    background-color: #282323;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
